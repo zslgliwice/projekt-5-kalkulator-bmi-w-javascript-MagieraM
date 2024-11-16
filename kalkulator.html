@@ -12,20 +12,31 @@
 	
 	<link rel="stylesheet" href="main.css">
 	
-	<!--[if lt IE 9]>
-	<script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
-	<![endif]-->
+
 	
 </head>
 
 <body>
 	
 	<main>
-	<article>
-		
-
-		
-	</article>	
+	<!-- <article> -->
+		<h1>Kalkulator BMI</h1>
+        <form id="bmiForm">
+            <label for="waga">Waga (kg):</label>
+            <input type="number" id="waga">
+            
+            <label for="wzrost">Wzrost (cm):</label>
+            <input type="number" id="wzrost">
+            
+            <button type="button" id="oblicz">Oblicz BMI</button>
+        </form>
+        
+        <div id="wynik">
+            <h2>Wynik:</h2>
+            <p id="wynik2"></p>
+            <p id="interpretacja"></p>
+        </div>
+	<!-- </article>	 -->
 	</main>
 	
 	<script src="skrypt.js"></script>

@@ -1,4 +1,68 @@
 body {
-	background-color: #111;
-	color: #efefef;	
+    background-color: #111;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+main {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 0 50px rgba(255, 255, 255, 0.26);
+    color: #000;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007272;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #009c9c;
+}
+
+#wynik {
+    margin-top: 20px;
+    display: none;
+}
+
+#wynik2 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#interpretacja {
+    font-size: 16px;
 }
